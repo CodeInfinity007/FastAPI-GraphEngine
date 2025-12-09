@@ -11,6 +11,7 @@ This exposes a single instance to be used everywhere and will update the registr
 
 class ToolRegistry:
     def __init__(self):
+        # callable means its a function
         self._tools: Dict[str, Callable] = {}
 
     def register(self, name: str):

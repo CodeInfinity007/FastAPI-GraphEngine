@@ -41,4 +41,3 @@ class WorkflowStatus(BaseModel):
     run_id: str
     status: str
     state: Dict[str, Any]
-    logs: List[str]
